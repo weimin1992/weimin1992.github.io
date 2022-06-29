@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          # 选择要使用的 node 版本
+          # 选择要使用的 node 版本测试
           node-version: '16'
 
       # 缓存 node_modules
