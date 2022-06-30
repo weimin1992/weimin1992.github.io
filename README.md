@@ -1,3 +1,3 @@
-# [站点地址](weimin1992.github.io)
+# [&#x1F431;Ming Blog](https://weimin1992.github.io/)
 
 > Bulit by [Github Action](https://docs.github.com/cn) and [VuePress](https://v2.vuepress.vuejs.org/zh/).
