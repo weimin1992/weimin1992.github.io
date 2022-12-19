@@ -1,0 +1,47 @@
+{
+  "hash": "37343c20",
+  "browserHash": "2c76372e",
+  "optimized": {
+    "@vuepress/shared": {
+      "src": "../../../../node_modules/@vuepress/shared/dist/index.js",
+      "file": "@vuepress_shared.js",
+      "fileHash": "33fdb6a0",
+      "needsInterop": false
+    },
+    "vue": {
+      "src": "../../../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "559623ad",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "src": "../../../../node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "file": "vue-router.js",
+      "fileHash": "d45399b4",
+      "needsInterop": false
+    },
+    "dayjs": {
+      "src": "../../../../node_modules/dayjs/dayjs.min.js",
+      "file": "dayjs.js",
+      "fileHash": "c5f3bc69",
+      "needsInterop": true
+    },
+    "dayjs/plugin/duration": {
+      "src": "../../../../node_modules/dayjs/plugin/duration.js",
+      "file": "dayjs_plugin_duration.js",
+      "fileHash": "b4ad2edd",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-RTMA3GUA": {
+      "file": "chunk-RTMA3GUA.js"
+    },
+    "chunk-MQXBTJN7": {
+      "file": "chunk-MQXBTJN7.js"
+    },
+    "chunk-RSJERJUL": {
+      "file": "chunk-RSJERJUL.js"
+    }
+  }
+}
