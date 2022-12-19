@@ -18,12 +18,13 @@ export default defineUserConfig(
     ],
     theme: childTheme({
       repo: 'https://github.com/weimin1992/weimin1992.github.io',
-      docsBranch: 'gh-pages',
+      docsBranch: 'main',
       repoLabel: 'GitHub',
       logo: blogInfo.siteLogo,
       contributors: false,
       lastUpdatedText: '最近修改时间',
       backToHome: '返回主页',
+      editLink: false,
       navbar: [
         {
           text: '工具',
