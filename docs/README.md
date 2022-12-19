@@ -4,8 +4,7 @@ date: 2022-10-24
 title: 主页
 # heroImage: https://vuejs.org/images/logo.png
 ---
-
-# 站点说明
+## 站点说明
 
 ::: tip 站点构建工具
 Bulit by [VuePress](https://v2.vuepress.vuejs.org/zh/).

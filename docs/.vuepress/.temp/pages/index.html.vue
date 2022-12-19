@@ -1,4 +1,4 @@
-<template><div><h1 id="站点说明" tabindex="-1"><a class="header-anchor" href="#站点说明" aria-hidden="true">#</a> 站点说明</h1>
+<template><div><h2 id="站点说明" tabindex="-1"><a class="header-anchor" href="#站点说明" aria-hidden="true">#</a> 站点说明</h2>
 <div class="custom-container tip"><p class="custom-container-title">站点构建工具</p>
 <p>Bulit by <a href="https://v2.vuepress.vuejs.org/zh/" target="_blank" rel="noopener noreferrer">VuePress<ExternalLinkIcon/></a>.</p>
 </div>
