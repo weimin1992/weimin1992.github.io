@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-14 13:27:17
  * @Last Modified by: weimin1992
- * @Last Modified time: 2022-12-14 13:28:26
+ * @Last Modified time: 2022-12-20 10:02:46
  * @Description: 子主题
  */
 import type { Theme } from '@vuepress/core'
@@ -22,6 +22,7 @@ export const childTheme = (options: DefaultThemeOptions): Theme => {
 
     // 覆盖组件别名
     alias: {
+      // '@theme/Home.vue': path.resolve(__dirname, './components/MyHome.vue'),
       '@theme/HomeFooter.vue': path.resolve(__dirname, './components/MyHomeFooter.vue'),
     },
   }

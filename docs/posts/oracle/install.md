@@ -5,12 +5,7 @@ next:
   link: /posts/oracle/create
 ---
 
-# Oracle安装
-
 >记录Oracle 11gR2的安装过程[下载地址](https://www.oracle.com/partners/campaign/112010-win64soft-094461.html)
-
-- [准备](#准备)
-- [安装](#安装)
 
 ## 准备
 

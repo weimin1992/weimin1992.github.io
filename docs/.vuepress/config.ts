@@ -18,9 +18,6 @@ export default defineUserConfig(
       ]
     ],
     theme: childTheme({
-      // repo: 'https://github.com/weimin1992/weimin1992.github.io',
-      // docsBranch: 'gh-pages',
-      // repoLabel: 'GitHub',
       logo: blogInfo.siteLogo,
       contributors: false,
       lastUpdatedText: '最近修改时间',
@@ -51,11 +48,15 @@ export default defineUserConfig(
               text: 'Oracle',
               children: [
                 {
-                  text: '安装',
+                  text: '安装-Windows',
                   link: '/posts/oracle/install',
                 },
                 {
-                  text: '表空间',
+                  text: '安装-MacOS',
+                  link: '/posts/oracle/sqlplus',
+                },
+                {
+                  text: '表空间创建',
                   link: '/posts/oracle/create'
                 },
                 {
@@ -92,6 +93,10 @@ export default defineUserConfig(
               ]
             }
           ]
+        },
+        {
+          text: '关于',
+          link: '/posts/about/index.md'
         }
       ]
     }),
