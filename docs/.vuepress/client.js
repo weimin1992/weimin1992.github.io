@@ -1,6 +1,5 @@
 import { defineClientConfig } from '@vuepress/client'
 import Layout from './layouts/Layout.vue'
-import 'uno.css';
 
 export default defineClientConfig({
   // enhance({ app, router, siteData }) {},

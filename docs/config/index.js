@@ -1,4 +1,4 @@
-export const blogInfo :IBlogInfo = {
+export const blogInfo = {
   auther: '浪铭',
   description: '化繁为简/make it easier',
   email: 'weimin1992@outlook.com',

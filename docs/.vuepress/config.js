@@ -1,9 +1,12 @@
-import { defineUserConfig } from 'vuepress'
+import { defineUserConfig, defaultTheme, viteBundler } from 'vuepress'
 import { childTheme } from './theme'
-import { viteBundler } from '@vuepress/bundler-vite'
 import Unocss from 'unocss/vite'
 import { blogInfo } from '../config'
+import { searchPlugin } from '@vuepress/plugin-search'
+// @ts-ignore
 import { shikiPlugin } from '@vuepress/plugin-shiki'
+import { copyCodePlugin } from "vuepress-plugin-copy-code2"
+// import vuePlugin from '@vitejs/plugin-vue'
 
 export default defineUserConfig(
   {
@@ -24,13 +27,8 @@ export default defineUserConfig(
       backToHome: '返回主页',
       navbar: [
         {
-          text: '工具',
-          children: [
-            {
-              text: '暂无',
-              children: []
-            }
-          ]
+          text: '不吃灰收藏夹',
+          link: '/favorites'
         },
         {
           text: '前端',
@@ -74,13 +72,13 @@ export default defineUserConfig(
               text: 'Docker',
               children: [
                 {
+                  text: '根路径修改',
+                  link: '/posts/docker/setrootdir'
+                },
+                {
                   text: 'wordpress建站',
                   link: '/posts/docker/wordpress'
                 },
-                {
-                  text: '根路径修改',
-                  link: '/posts/docker/setrootdir'
-                }
               ]
             },
             {
@@ -101,12 +99,21 @@ export default defineUserConfig(
       ]
     }),
     plugins: [
-      shikiPlugin({})
+      searchPlugin({}),
+      shikiPlugin({}),
+      copyCodePlugin({})
     ],
     bundler: viteBundler({
       viteOptions: {
         plugins: [
           Unocss(),
+          // vuePlugin({
+          //   template: {
+          //     compilerOptions: {
+          //       isCustomElement: (tag) => ['ming-copyright'].includes(tag),
+          //     }
+          //   }
+          // })
         ]
       }
     })
