@@ -8,10 +8,10 @@ next:
   link: /posts/oracle/bak
 ---
 <!-- >记录Oracle 11gR2的安装过程 -->
-::: warning 代码说明
+::: warning 说明
 
 * 变量使用 {} 包裹，真实环境需要根据实际情况进行修改！
-* 使用SQLPlus或其他客户端工具,建议以sysdba身份登录（Windows环境参照[Oracle安装](./install)、MacOS系统可参照[mac下安装sqlplus](./sqlplus)）
+* 使用SQLPlus或其他客户端工具,建议以sysdba身份登录（Windows环境参照[Oracle安装](./install)、MacOS系统可参照[mac下安装sqlplus](./sqlplus)）。
 :::
 
 ``` sql

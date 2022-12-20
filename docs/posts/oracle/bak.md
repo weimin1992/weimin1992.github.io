@@ -6,10 +6,10 @@ prev:
 ---
 
 
-::: warning 代码说明
+::: warning 说明
 
 * 变量使用 {} 包裹，真实环境需要根据实际情况进行修改！
-* 在安装oracle环境的机器上打开终端：cmd（windows）或 zsh（mac）
+* 在安装oracle环境的机器上打开终端：cmd（windows）或 zsh（mac）。
 :::
 
 ## 导出

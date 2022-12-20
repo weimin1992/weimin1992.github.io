@@ -1,12 +1,12 @@
-# docker-compose构建wordpress站点
+--- 
+title: docker-compose构建wordpress站点
+prev:
+  text: Docker根路径（data-root）修改
+  link: /posts/docker/setrootdir
 
->记录使用docker-compose搭建wordpress站点的过程，[参考地址](https://zhuanlan.zhihu.com/p/462786002)
+---
 
-- [服务器环境](#服务器环境)
-- [docker环境](#docker环境)
-- [docker-compose配置](#docker-compose配置)
-- [nginx预配置](#nginx预配置)
-- [启动容器](#启动容器)
+>记录使用docker-compose搭建wordpress站点的过程（站点目前已使用Vuepress重新构建)，[参考地址](https://zhuanlan.zhihu.com/p/462786002)
 
 -------------
 
