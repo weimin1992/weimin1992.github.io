@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-16 11:32:19
  * @Last Modified by: weimin1992
- * @Last Modified time: 2022-12-16 15:20:41
+ * @Last Modified time: 2022-12-20 10:38:48
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
@@ -82,9 +82,10 @@
   // --code-ln-color: #9e9e9e;
   // --code-ln-wrapper-width: 3.5rem;
 
-  // // font vars
-  // --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-  //   Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  // font vars
+  // MaShanZhengRegular字体在chrome下有效
+  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', MaShanZhengRegular, sans-serif;
   // --font-family-code: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 
   // // layout vars
@@ -165,6 +166,13 @@ html.dark {
 //   --search-item-focus-bg-color: var(--c-bg-light);
 // }
 
+@font-face {
+  font-weight: normal;
+  font-family: MaShanZhengRegular;
+  font-display: swap;
+  font-style: normal;
+  src: url('/fonts/MaShanZheng-Regular.ttf');
+}
 // 样式规则覆盖
 .page{
   padding-bottom: 0;
