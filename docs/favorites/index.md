@@ -21,7 +21,7 @@ title: 不吃灰收藏夹
 [阮一峰的ES6标准入门教程](https://es6.ruanyifeng.com)<Badge type="tip" text="api" vertical="top" />
 > 阮神所著《ES6标准入门》纸质书的开源电子版，可用于速查es6语法特性...
 
-[A Comolete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)<Badge type="tip" text="css" vertical="top" />
+[A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)<Badge type="tip" text="css" vertical="top" />
 > 来自[css-trick](https://css-tricks.com)的一份flex弹性布局小册，图文并貌，内有支持打印的pdf下载链接。
 
 [Markdown Here Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#emphasis)<Badge type="tip" text="api" vertical="top" />
