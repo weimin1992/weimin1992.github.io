@@ -99,7 +99,13 @@ export default defineUserConfig(
       ]
     }),
     plugins: [
-      searchPlugin({}),
+      searchPlugin({
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+      }),
       shikiPlugin({}),
       copyCodePlugin({})
     ],
