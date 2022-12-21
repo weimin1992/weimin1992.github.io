@@ -1,17 +1,12 @@
-<template><div><h1 id="linux常用命令" tabindex="-1"><a class="header-anchor" href="#linux常用命令" aria-hidden="true">#</a> Linux常用命令</h1>
-<blockquote>
+<template><div><blockquote>
 <p>与Windows下可视化操作方式不同，Linux操作系统通过shell（终端）进行操作交互，这种方式需要运维人员熟练掌握基础命令，此文基于上述目的总结Linux服务器运维过程中常用的命令，🚀 此文将持续更新...</p>
 </blockquote>
 <div class="custom-container warning"><p class="custom-container-title">说明</p>
-<p>变量使用 {} 包裹，真实环境需要根据实际情况进行修改！
-Linux有许多发行分支，本文目前只针对较为常用的Ubuntu和CentOS</p>
-</div>
 <ul>
-<li><a href="#%E8%BF%9C%E7%A8%8B">远程</a></li>
-<li><a href="#%E7%94%A8%E6%88%B7%E7%BB%84">用户组</a></li>
-<li><a href="#%E8%BD%AF%E4%BB%B6">软件</a></li>
-<li><a href="#%E6%96%87%E4%BB%B6%E7%AE%A1%E7%90%86">文件管理</a></li>
+<li>变量使用 {} 包裹，真实环境需要根据实际情况进行修改！</li>
+<li>Linux有许多发行分支，本文目前只针对较为常用的Ubuntu和CentOS。</li>
 </ul>
+</div>
 <hr>
 <h2 id="远程" tabindex="-1"><a class="header-anchor" href="#远程" aria-hidden="true">#</a> 远程</h2>
 <p>分为<strong>用户密码</strong>与<strong>密钥文件</strong>两种方式</p>

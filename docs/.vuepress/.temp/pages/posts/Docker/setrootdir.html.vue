@@ -1,9 +1,9 @@
-<template><div><h1 id="docker根路径-data-root-修改" tabindex="-1"><a class="header-anchor" href="#docker根路径-data-root-修改" aria-hidden="true">#</a> Docker根路径（data-root）修改</h1>
+<template><div><div class="custom-container danger"><p class="custom-container-title">注意事项</p>
 <ul>
-<li><a href="#%E8%83%8C%E6%99%AF">背景</a></li>
-<li><a href="#%E6%93%8D%E4%BD%9C">操作</a></li>
-<li><a href="#%E6%A3%80%E6%9F%A5">检查</a></li>
+<li>修改根路径之前，需要检查是否有运行的容器会受到影响：比如<strong>Oracle</strong>、<strong>MySql</strong>等实例;</li>
+<li>迁移前建议做好数据备份，迁移后要确保已运行实例不受影响的前提下再删除旧的目录。</li>
 </ul>
+</div>
 <h2 id="背景" tabindex="-1"><a class="header-anchor" href="#背景" aria-hidden="true">#</a> 背景</h2>
 <ul>
 <li>输入命令<code v-pre>df -h</code>查看系统可使用的磁盘空间发现<code v-pre>/dev/mapper/centos-root</code>根目录磁盘已用空间所占比例很高。</li>

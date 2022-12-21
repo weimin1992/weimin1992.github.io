@@ -1,14 +1,6 @@
-<template><div><h1 id="docker-compose构建wordpress站点" tabindex="-1"><a class="header-anchor" href="#docker-compose构建wordpress站点" aria-hidden="true">#</a> docker-compose构建wordpress站点</h1>
-<blockquote>
-<p>记录使用docker-compose搭建wordpress站点的过程，<a href="https://zhuanlan.zhihu.com/p/462786002" target="_blank" rel="noopener noreferrer">参考地址<ExternalLinkIcon/></a></p>
+<template><div><blockquote>
+<p>记录使用docker-compose搭建wordpress站点的过程（站点目前已使用Vuepress重新构建)，<a href="https://zhuanlan.zhihu.com/p/462786002" target="_blank" rel="noopener noreferrer">参考地址<ExternalLinkIcon/></a></p>
 </blockquote>
-<ul>
-<li><a href="#%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%8E%AF%E5%A2%83">服务器环境</a></li>
-<li><a href="#docker%E7%8E%AF%E5%A2%83">docker环境</a></li>
-<li><a href="#docker-compose%E9%85%8D%E7%BD%AE">docker-compose配置</a></li>
-<li><a href="#nginx%E9%A2%84%E9%85%8D%E7%BD%AE">nginx预配置</a></li>
-<li><a href="#%E5%90%AF%E5%8A%A8%E5%AE%B9%E5%99%A8">启动容器</a></li>
-</ul>
 <hr>
 <h2 id="服务器环境" tabindex="-1"><a class="header-anchor" href="#服务器环境" aria-hidden="true">#</a> 服务器环境</h2>
 <ul>

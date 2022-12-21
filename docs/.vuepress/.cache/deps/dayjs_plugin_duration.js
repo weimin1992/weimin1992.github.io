@@ -2,9 +2,9 @@ import {
   __commonJS
 } from "./chunk-RSJERJUL.js";
 
-// node_modules/dayjs/plugin/duration.js
+// node_modules/.pnpm/dayjs@1.11.7/node_modules/dayjs/plugin/duration.js
 var require_duration = __commonJS({
-  "node_modules/dayjs/plugin/duration.js"(exports, module) {
+  "node_modules/.pnpm/dayjs@1.11.7/node_modules/dayjs/plugin/duration.js"(exports, module) {
     !function(t, s) {
       "object" == typeof exports && "undefined" != typeof module ? module.exports = s() : "function" == typeof define && define.amd ? define(s) : (t = "undefined" != typeof globalThis ? globalThis : t || self).dayjs_plugin_duration = s();
     }(exports, function() {

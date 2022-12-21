@@ -10,7 +10,6 @@ import { copyCodePlugin } from "vuepress-plugin-copy-code2"
 
 export default defineUserConfig(
   {
-    base: '/blog/',
     lang: 'zh-CN',
     title: `${blogInfo.auther}的博客`,
     description: '化繁为简/make it easier',
@@ -21,6 +20,9 @@ export default defineUserConfig(
       ]
     ],
     theme: childTheme({
+      repo: 'https://github.com/weimin1992/weimin1992.github.io',
+      docsBranch: 'main',
+      repoLabel: 'GitHub',
       logo: blogInfo.siteLogo,
       contributors: false,
       lastUpdatedText: '最近修改时间',

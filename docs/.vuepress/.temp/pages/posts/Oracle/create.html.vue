@@ -1,8 +1,8 @@
-<template><div><h1 id="创建表空间" tabindex="-1"><a class="header-anchor" href="#创建表空间" aria-hidden="true">#</a> 创建表空间</h1>
-<div class="custom-container warning"><p class="custom-container-title">代码说明</p>
+<template><div><!-- >记录Oracle 11gR2的安装过程 -->
+<div class="custom-container warning"><p class="custom-container-title">说明</p>
 <ul>
 <li>变量使用 {} 包裹，真实环境需要根据实际情况进行修改！</li>
-<li>使用SQLPlus或其他客户端工具,建议以sysdba身份登录</li>
+<li>使用SQLPlus或其他客户端工具,建议以sysdba身份登录（Windows环境参照<a href="./install">Oracle安装</a>、MacOS系统可参照<a href="./sqlplus">mac下安装sqlplus</a>）。</li>
 </ul>
 </div>
 <div class="language-sql line-numbers-mode" data-ext="sql"><pre v-pre class="shiki" style="background-color: #2e3440ff"><code><span class="line"><span style="color: #616E88">-- 创建表空间</span></span>

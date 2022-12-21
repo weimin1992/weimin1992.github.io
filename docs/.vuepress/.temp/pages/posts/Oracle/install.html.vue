@@ -1,11 +1,6 @@
-<template><div><h1 id="oracle安装" tabindex="-1"><a class="header-anchor" href="#oracle安装" aria-hidden="true">#</a> Oracle安装</h1>
-<blockquote>
+<template><div><blockquote>
 <p>记录Oracle 11gR2的安装过程<a href="https://www.oracle.com/partners/campaign/112010-win64soft-094461.html" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a></p>
 </blockquote>
-<ul>
-<li><a href="#%E5%87%86%E5%A4%87">准备</a></li>
-<li><a href="#%E5%AE%89%E8%A3%85">安装</a></li>
-</ul>
 <h2 id="准备" tabindex="-1"><a class="header-anchor" href="#准备" aria-hidden="true">#</a> 准备</h2>
 <h3 id="下载" tabindex="-1"><a class="header-anchor" href="#下载" aria-hidden="true">#</a> 下载</h3>
 <blockquote>

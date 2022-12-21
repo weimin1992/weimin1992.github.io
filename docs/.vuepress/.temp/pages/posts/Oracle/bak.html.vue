@@ -1,8 +1,7 @@
-<template><div><h1 id="备份-表空间的导出、导入" tabindex="-1"><a class="header-anchor" href="#备份-表空间的导出、导入" aria-hidden="true">#</a> 备份（表空间的导出、导入）</h1>
-<div class="custom-container warning"><p class="custom-container-title">代码说明</p>
+<template><div><div class="custom-container warning"><p class="custom-container-title">说明</p>
 <ul>
 <li>变量使用 {} 包裹，真实环境需要根据实际情况进行修改！</li>
-<li>在安装oracle环境的机器上打开终端：cmd（windows）或 zsh（mac）</li>
+<li>在安装oracle环境的机器上打开终端：cmd（windows）或 zsh（mac）。</li>
 </ul>
 </div>
 <h2 id="导出" tabindex="-1"><a class="header-anchor" href="#导出" aria-hidden="true">#</a> 导出</h2>
