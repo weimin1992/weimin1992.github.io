@@ -1,10 +1,10 @@
 ---
-title: 创建表空间
+title: Oracle 表空间创建
 prev:
-  text: Oracle安装
+  text: Windows 下安装 Oracle 11g
   link: /posts/oracle/install
 next:
-  text: 表空间备份
+  text: Oracle 备份与还原
   link: /posts/oracle/bak
 ---
 <!-- >记录Oracle 11gR2的安装过程 -->

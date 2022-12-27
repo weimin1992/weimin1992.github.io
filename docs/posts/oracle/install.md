@@ -1,7 +1,10 @@
 ---
-title: Oracle安装
+title: Windows 下安装 Oracle 11g
+prev: 
+  text: MacOS 下安装 sqlplus
+  link: /posts/oracle/sqlplus
 next:
-  text: 创建表空间
+  text: Oracle 表空间创建
   link: /posts/oracle/create
 ---
 

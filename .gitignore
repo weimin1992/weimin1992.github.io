@@ -14,3 +14,4 @@ node_modules
 .vscode
 
 docs/.vuepress/dist
+nginx.conf
