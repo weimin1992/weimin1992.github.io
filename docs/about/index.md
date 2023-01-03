@@ -1,9 +1,10 @@
 ---
 date: 2022-10-24
-title: 主页
+title: 关于
+sidebar: false
 ---
 
-## 站点说明
+## 关于
 
 ::: warning 构建工具
 由[VuePress v2](https://v2.vuepress.vuejs.org/zh/)构建，VuePress v2目前仍处于`beta`阶段，未来可能会在Minor版本中发生Breaking Changes。

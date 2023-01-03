@@ -1,5 +1,9 @@
 ---
- title: mac下安装sqlplus
+ title: MacOS 下安装 sqlplus
+ date: 2022-12-20
+ next:
+  text: Windows 下安装 Oracle 11g
+  link: /posts/oracle/install
 ---
 
 

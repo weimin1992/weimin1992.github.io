@@ -1,7 +1,7 @@
 ---
-title: 备份
+title: Oracle 备份与还原
 prev:
-  text: 表空间创建
+  text: Oracle 表空间创建
   link: /posts/oracle/create
 ---
 

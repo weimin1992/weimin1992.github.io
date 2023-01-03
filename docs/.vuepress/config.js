@@ -6,7 +6,9 @@ import { searchPlugin } from '@vuepress/plugin-search'
 // @ts-ignore
 import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from "vuepress-plugin-copy-code2"
-// import vuePlugin from '@vitejs/plugin-vue'
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
+import { getDirname, path } from '@vuepress/utils'
+const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig(
   {
@@ -29,93 +31,40 @@ export default defineUserConfig(
       backToHome: '返回主页',
       navbar: [
         {
+          text: '发布文章',
+          link: '/posts'
+        },
+        {
           text: '不吃灰收藏夹',
           link: '/favorites'
         },
         {
-          text: '前端',
-          children: [
-            {
-              text: '暂无',
-              children: []
-            }
-          ]
-        },
-        {
-          text: '后端',
-          children: [
-            {
-              text: 'Oracle',
-              children: [
-                {
-                  text: '安装-Windows',
-                  link: '/posts/oracle/install',
-                },
-                {
-                  text: '安装-MacOS',
-                  link: '/posts/oracle/sqlplus',
-                },
-                {
-                  text: '表空间创建',
-                  link: '/posts/oracle/create'
-                },
-                {
-                  text: '备份与还原',
-                  link: '/posts/oracle/bak'
-                }
-              ]
-            }
-          ]
-        },
-        {
-          text: '运维',
-          children: [
-            {
-              text: 'Docker',
-              children: [
-                {
-                  text: '根路径修改',
-                  link: '/posts/docker/setrootdir'
-                },
-                {
-                  text: 'wordpress建站',
-                  link: '/posts/docker/wordpress'
-                },
-              ]
-            },
-            {
-              text: 'Linux',
-              children: [
-                {
-                  text: '常用命令',
-                  link: '/posts/linux/cmd'
-                },
-              ]
-            }
-          ]
-        },
-        {
           text: '关于',
-          link: '/posts/about/index.md'
+          link: '/about/index.md'
         }
       ]
     }),
     plugins: [
-      searchPlugin({}),
+      searchPlugin({
+        locales: {
+          '/': {
+            placeholder: '搜索',
+          },
+        },
+      }),
       shikiPlugin({}),
-      copyCodePlugin({})
+      copyCodePlugin({}),
+      registerComponentsPlugin({
+        components: {
+          MingBadge: path.resolve(__dirname, './components/MingBadge.vue'),
+          MingPosts: path.resolve(__dirname, './components/MingPosts.vue')
+        }
+      })
     ],
     bundler: viteBundler({
       viteOptions: {
         plugins: [
-          Unocss(),
-          // vuePlugin({
-          //   template: {
-          //     compilerOptions: {
-          //       isCustomElement: (tag) => ['ming-copyright'].includes(tag),
-          //     }
-          //   }
-          // })
+          Unocss()
         ]
       }
     })

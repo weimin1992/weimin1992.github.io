@@ -3,14 +3,37 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-16 11:32:19
  * @Last Modified by: weimin1992
- * @Last Modified time: 2022-12-20 10:38:48
+ * @Last Modified time: 2022-12-22 11:06:25
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
 :root {
-  --c-brand: #002fa7;
+  //ming-custom-vars
+  --m-nord-frost-one: #8fbcbb;
+  --m-nord-frost-two: #88c0d0;
+  --m-nord-frost-three: #81a1c1;
+  --m-nord-frost-four: #5e81ac;
+  --m-nord-snow-storm-one: #d8dee9;
+  --m-nord-snow-storm-two: #e5e9f0;
+  --m-nord-snow-storm-three: #eceff4;
+  --m-tag-oracle:#c74634;
+  --m-tag-docker: #2496ed;
+  --m-tag-linux:#ff6c0e;
+
+  --m-klein-blue: #002fa7;
+  --m-protect-eye-bg: #f5f5d5;
+  --m-dark-bg: #2e3440;
+  --m-tag-red: #d92027;
+  --m-tag-orange: #ff9234;
+  --m-tag-yellow: #ffcd3c;
+  --m-tag-green: #35d0ba;
+  --m-tag-blue: #009eff;
+  // --m-color-accent-fg: #0969da;
+  // 覆盖vuepress默认变量值
+  --c-brand: var(--m-klein-blue);
   --c-brand-light: #4abf8a;
-  --c-bg: #f5f5d5;
+  --c-bg: var(--m-protect-eye-bg);
+
   // brand colors
   // --c-brand: #3eaf7c;
   // background colors
@@ -100,9 +123,9 @@
 
 // 夜间模式配色
 html.dark {
-  --c-bg: #2e3440;
+   --c-bg: var(--m-dark-bg);
   // --c-bg: #064663;
-  --c-brand: #8fbcbb;
+  --c-brand: var(--m-nord-frost-one);
 }
 
 // // plugin-back-to-top
@@ -181,3 +204,42 @@ html.dark {
 .navbar .logo{
   border-radius: 50%;
 }
+
+.ming-badge {
+  color: var(--m-nord-snow-storm-three);
+  border-radius: 6px;
+}
+
+.ming-badge.red {
+  background-color: var(--m-tag-red);
+}
+
+.ming-badge.orange {
+  background-color: var(--m-tag-orange);
+}
+
+.ming-badge.yellow {
+  background-color: var(--m-tag-yellow);
+}
+
+.ming-badge.green {
+  background-color: var(--m-tag-green);
+}
+
+.ming-badge.blue {
+  background-color: var(--m-tag-blue);
+}
+
+.ming-badge.oracle {
+  background-color: var(--m-tag-oracle);
+}
+
+.ming-badge.docker {
+  background-color: var(--m-tag-docker);
+}
+
+.ming-badge.linux {
+  background-color: var(--m-tag-linux);
+}
+
+
