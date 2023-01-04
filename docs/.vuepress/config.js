@@ -61,11 +61,6 @@ export default defineUserConfig(
         }
       })
     ],
-    // resolve: {
-    //   alias: {
-
-    //   }
-    // },
     bundler: viteBundler({
       viteOptions: {
         plugins: [

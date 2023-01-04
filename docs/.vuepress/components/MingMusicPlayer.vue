@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2023-01-03 10:11:33
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-04 16:08:18
+ * @Last Modified time: 2023-01-04 16:14:27
  * @Description: 音乐播放器
  */
 <script setup>
@@ -13,7 +13,7 @@ import { onUnmounted, onMounted, ref } from 'vue'
 let audioRef = ref(null)
 
 onMounted(() => {
-  import('APlayer').then(module => {
+  import('aplayer').then(module => {
     if (module.default) {
       audioRef = new module.default({
         container: document.getElementById('audio-container'),
