@@ -3,11 +3,12 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2023-01-03 10:11:33
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-04 16:00:50
+ * @Last Modified time: 2023-01-04 16:08:18
  * @Description: 音乐播放器
  */
 <script setup>
 import ParentNavbarBrand from '@vuepress/theme-default/lib/client/components/NavbarBrand.vue'
+import 'aplayer/dist/APlayer.min.css';
 import { onUnmounted, onMounted, ref } from 'vue'
 let audioRef = ref(null)
 

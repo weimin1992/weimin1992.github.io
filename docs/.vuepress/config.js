@@ -1,4 +1,4 @@
-import { defineUserConfig, defaultTheme, viteBundler } from 'vuepress'
+import { defineUserConfig, viteBundler } from 'vuepress'
 import { childTheme } from './theme'
 import Unocss from 'unocss/vite'
 import { blogInfo } from '../config'
@@ -8,6 +8,8 @@ import { shikiPlugin } from '@vuepress/plugin-shiki'
 import { copyCodePlugin } from "vuepress-plugin-copy-code2"
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from '@vuepress/utils'
+// import alias from '@rollup/plugin-alias'
+
 const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig(
@@ -59,6 +61,11 @@ export default defineUserConfig(
         }
       })
     ],
+    // resolve: {
+    //   alias: {
+
+    //   }
+    // },
     bundler: viteBundler({
       viteOptions: {
         plugins: [
