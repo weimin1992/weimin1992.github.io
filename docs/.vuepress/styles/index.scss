@@ -192,9 +192,10 @@ html.dark {
 @font-face {
   font-weight: normal;
   font-family: MaShanZhengRegular;
-  font-display: swap;
   font-style: normal;
-  src: url('/fonts/MaShanZheng-Regular.ttf');
+  src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff2") format('woff2');
+  src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff") format('woff');
+  font-display: swap;
 }
 // 样式规则覆盖
 .page{
