@@ -3,10 +3,12 @@ import { defineAsyncComponent } from 'vue'
 export const pagesComponents = {
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/index.html.vue")),
+  // path: /about/
+  "v-74bc627b": defineAsyncComponent(() => import(/* webpackChunkName: "v-74bc627b" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/about/index.html.vue")),
   // path: /favorites/
   "v-25279f1e": defineAsyncComponent(() => import(/* webpackChunkName: "v-25279f1e" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/favorites/index.html.vue")),
-  // path: /posts/about/
-  "v-082e9577": defineAsyncComponent(() => import(/* webpackChunkName: "v-082e9577" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/posts/about/index.html.vue")),
+  // path: /posts/
+  "v-e1e3da16": defineAsyncComponent(() => import(/* webpackChunkName: "v-e1e3da16" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/posts/index.html.vue")),
   // path: /posts/docker/setrootdir.html
   "v-4e586bf6": defineAsyncComponent(() => import(/* webpackChunkName: "v-4e586bf6" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/posts/docker/setrootdir.html.vue")),
   // path: /posts/docker/wordpress.html

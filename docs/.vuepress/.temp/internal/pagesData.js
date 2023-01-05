@@ -1,10 +1,12 @@
 export const pagesData = {
   // path: /
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
+  // path: /about/
+  "v-74bc627b": () => import(/* webpackChunkName: "v-74bc627b" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/about/index.html.js").then(({ data }) => data),
   // path: /favorites/
   "v-25279f1e": () => import(/* webpackChunkName: "v-25279f1e" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/favorites/index.html.js").then(({ data }) => data),
-  // path: /posts/about/
-  "v-082e9577": () => import(/* webpackChunkName: "v-082e9577" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/posts/about/index.html.js").then(({ data }) => data),
+  // path: /posts/
+  "v-e1e3da16": () => import(/* webpackChunkName: "v-e1e3da16" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/posts/index.html.js").then(({ data }) => data),
   // path: /posts/docker/setrootdir.html
   "v-4e586bf6": () => import(/* webpackChunkName: "v-4e586bf6" */"/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/pages/posts/docker/setrootdir.html.js").then(({ data }) => data),
   // path: /posts/docker/wordpress.html

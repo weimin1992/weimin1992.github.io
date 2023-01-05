@@ -9,7 +9,8 @@ import clientConfig7 from '/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/
 import clientConfig8 from '/Users/iporridge/Code/weimin1992.blog/node_modules/.pnpm/@vuepress+plugin-search@2.0.0-beta.59/node_modules/@vuepress/plugin-search/lib/client/config.js'
 import clientConfig9 from '/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/sass-palette/load-hope.js'
 import clientConfig10 from '/Users/iporridge/Code/weimin1992.blog/node_modules/.pnpm/vuepress-plugin-copy-code2@2.0.0-beta.143_vuepress@2.0.0-beta.59/node_modules/vuepress-plugin-copy-code2/lib/client/config.js'
-import clientConfig11 from '/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/client.js'
+import clientConfig11 from '/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/.temp/register-components/clientConfig.5cd8080e.js'
+import clientConfig12 from '/Users/iporridge/Code/weimin1992.blog/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -24,4 +25,5 @@ export const clientConfigs = [
   clientConfig9,
   clientConfig10,
   clientConfig11,
+  clientConfig12,
 ]
