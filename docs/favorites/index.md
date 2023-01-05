@@ -3,7 +3,7 @@ title: 不吃灰收藏夹
 sidebar: false
 ---
 
-## *2022-1-5*
+## *2023-1-5*
 
 [Native UI- <MingBadge type="green" text="vue" vertical="middle" /><MingBadge type="blue" text="api" vertical="middle" />](https://www.naiveui.com/zh-CN/os-theme)
 > 基于vue3的组件库，组件丰富，文档新颖有趣，可以说是vue生态下的[Antd Design](https://ant.design/index-cn)不为过
