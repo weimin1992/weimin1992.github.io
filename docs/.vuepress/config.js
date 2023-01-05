@@ -27,6 +27,7 @@ export default defineUserConfig(
       repoLabel: 'GitHub',
       logo: blogInfo.siteLogo,
       contributors: false,
+      editLink: false,
       lastUpdatedText: '最近修改时间',
       backToHome: '返回主页',
       navbar: [
