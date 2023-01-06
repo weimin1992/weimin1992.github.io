@@ -3,6 +3,13 @@ title: 不吃灰收藏夹
 sidebar: false
 ---
 
+## *2023-1-6*
+
+[antfu/icones <MingBadge type="github" text="GitHub" vertical="middle" />](https://github.com/antfu/icones)
+> 各系列Icon集合，快速搜索自己需要的Icon([官网地址](https://icones.js.org))，可搭配[unocss](https://github.com/unocss/unocss)使用...
+
+---
+
 ## *2023-1-5*
 
 [Native UI <MingBadge type="green" text="vue" vertical="middle" /><MingBadge type="blue" text="api" vertical="middle" />](https://www.naiveui.com/zh-CN/os-theme)
