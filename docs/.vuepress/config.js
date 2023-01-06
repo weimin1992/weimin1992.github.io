@@ -44,6 +44,10 @@ export default defineUserConfig(
         {
           text: '关于',
           link: '/about/index.md'
+        },
+        {
+          text: '开往',
+          link: 'https://www.travellings.cn'
         }
       ]
     }),

@@ -13,8 +13,8 @@ features:
   - title: 关于
     details: 站点构建说明、搭建博客的目的。
 actions:
-  - text: 开始阅读
-    link: /posts/docker/wordpress
+  - text: 最新文章
+    link: /posts/css/scrollbar
     type: primary
   - text: 关于
     link: /about
