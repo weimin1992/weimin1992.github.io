@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-16 11:32:19
  * @Last Modified by: weimin1992
- * @Last Modified time: 2022-12-22 11:06:25
+ * @Last Modified time: 2023-01-06 09:39:31
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
@@ -31,11 +31,12 @@
   // --m-color-accent-fg: #0969da;
   // 覆盖vuepress默认变量值
   --c-brand: var(--m-klein-blue);
-  --c-brand-light: #4abf8a;
+  --c-brand-light: var(--m-tag-blue);
   --c-bg: var(--m-protect-eye-bg);
 
   // brand colors
   // --c-brand: #3eaf7c;
+  // --c-brand-light: #4abf8a;
   // background colors
   // --c-bg: #ffffff;
   // --c-bg-light: #f3f4f5;
