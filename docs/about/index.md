@@ -4,10 +4,13 @@ title: 关于
 sidebar: false
 ---
 
-## 关于
+<!-- ## 关于 -->
 
-::: warning 构建工具
-由[VuePress v2](https://v2.vuepress.vuejs.org/zh/)构建，VuePress v2目前仍处于`beta`阶段，未来可能会在Minor版本中发生Breaking Changes。
+::: warning 博客构建工具
+* 由[VuePress v2](https://v2.vuepress.vuejs.org/zh/)构建，VuePress v2目前仍处于`beta`阶段，未来可能会在Minor版本中发生Breaking Changes。
+
+* 基于[unocss](https://github.com/unocss/unocss)构建自定义vue组件。
+* 集成[APlayer](https://aplayer.js.org/#/zh-Hans/)音乐播放器.
 :::
 
 > &#x270F; 好记性不如烂笔头
