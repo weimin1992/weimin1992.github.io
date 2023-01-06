@@ -10,8 +10,13 @@ title: 浏览器滚动条默认样式
 
 ## 浏览器滚动条选择器集合
 
-0. 图示
+### 图示
+
+> 浏览器滚动条css选择器集合的位置对应如图所示：
+
 ![图示](https://cdn.porridge.fun/blog/css/scrollbar.png)
+
+### 选择器代码
 
 1. 滚动条整体部分
 
@@ -68,15 +73,15 @@ title: 浏览器滚动条默认样式
 }
 /*定义滚动条轨道内阴影+圆角*/
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
     border-radius: 10px;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
 }
 /*定义滑块内阴影+圆角*/
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #2163DA;
+    background-color: #2163da;
 }
 ```
 
