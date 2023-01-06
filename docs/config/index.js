@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-21 17:09:46
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-06 15:50:57
+ * @Last Modified time: 2023-01-06 16:21:26
  * @Description: 站点配置信息
  */
 
@@ -24,7 +24,7 @@ export const postDataSource = {
       year: 2023,
       posts: [
         {
-          text: '浏览器滚动条默认样式',
+          text: '浏览器滚动条默认样式修改',
           link: '/posts/css/scrollbar',
           tag: ['Css'],
           date: '1月6日'

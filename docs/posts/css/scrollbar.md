@@ -1,5 +1,5 @@
 ---
-title: 浏览器滚动条默认样式
+title: 浏览器滚动条默认样式修改
 # prev:
 #   text: 
 #   link: /posts/...
