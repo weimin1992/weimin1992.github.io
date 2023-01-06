@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-16 11:32:19
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-06 15:53:13
+ * @Last Modified time: 2023-01-06 17:02:11
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
@@ -249,7 +249,11 @@ html.dark {
   background-color: var(--m-tag-orange);
 }
 
-span.badge.ming-badge.git {
+.ming-badge.git {
   background-color: var(--m-tag-git);
+}
+
+.ming-badge.github {
+  background-image: linear-gradient(to bottom, #8241f9, #4e277b);
 }
 
