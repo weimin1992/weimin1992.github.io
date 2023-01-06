@@ -30,3 +30,6 @@ sidebar: false
 
 [MDN Web Docs](https://developer.mozilla.org/)<MingBadge type="blue" text="api" vertical="top" />
 > Mozilla开源的web开发技术文档，涉及web开发的方方面面，站点Slogan为：Resources for Developers, by Developers...
+
+[Pro Git](https://git-scm.com/book/en/v2)<MingBadge type="git" text="git" vertical="top" />
+> git官网中的书，内有pdf、epub、mobi格式下载链接。

@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-16 11:32:19
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-06 09:39:31
+ * @Last Modified time: 2023-01-06 15:53:13
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
@@ -28,6 +28,7 @@
   --m-tag-yellow: #ffcd3c;
   --m-tag-green: #35d0ba;
   --m-tag-blue: #009eff;
+  --m-tag-git: #f14e32;
   // --m-color-accent-fg: #0969da;
   // 覆盖vuepress默认变量值
   --c-brand: var(--m-klein-blue);
@@ -244,4 +245,11 @@ html.dark {
   background-color: var(--m-tag-linux);
 }
 
+.ming-badge.css {
+  background-color: var(--m-tag-orange);
+}
+
+span.badge.ming-badge.git {
+  background-color: var(--m-tag-git);
+}
 

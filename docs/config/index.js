@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-21 17:09:46
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-03 15:33:41
+ * @Last Modified time: 2023-01-06 15:50:57
  * @Description: 站点配置信息
  */
 
@@ -18,11 +18,17 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 8,
+  total: 9,
   data: [
     {
       year: 2023,
       posts: [
+        {
+          text: '浏览器滚动条默认样式',
+          link: '/posts/css/scrollbar',
+          tag: ['Css'],
+          date: '1月6日'
+        },
         {
           text: 'Docker常用命令',
           link: '/posts/docker/common',
