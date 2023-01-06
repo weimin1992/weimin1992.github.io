@@ -1,5 +1,8 @@
 ---
 title: Docker根路径（data-root）修改
+prev:
+  text: Docker常用命令
+  link: /posts/docker/common
 next:
   text: docker-compose构建wordpress站点
   link: /posts/docker/wordpress

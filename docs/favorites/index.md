@@ -10,13 +10,6 @@ sidebar: false
 
 ---
 
-<!-- ## *2022-12-20*
-
-[测试- <MingBadge type="tip" text="v2" vertical="middle" />](http://baidu.com)
-> 一段描述...
-
---- -->
-
 ## *2022-10-24*
 
 [React Docs beta](https://beta.reactjs.org)<MingBadge type="blue" text="api" vertical="top" />

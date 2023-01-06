@@ -1,8 +1,8 @@
 ---
 title: Docker常用命令
 next:
-  text: docker-compose构建wordpress站点
-  link: /posts/docker/wordpress
+  text: Docker根路径（data-root）修改
+  link: /posts/docker/setrootdir
 ---
 
 ::: warning 说明

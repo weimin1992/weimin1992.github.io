@@ -21,7 +21,7 @@ export default defineUserConfig(
     head: [
       [
         'link',
-        { rel: 'icon', href: blogInfo.siteLogo || 'https://github.com/weimin1992.png' }
+        { rel: 'icon', href: blogInfo.siteLogo || 'https://cdn.porridge.fun/avatar/langming.jpeg' }
       ]
     ],
     theme: childTheme({
