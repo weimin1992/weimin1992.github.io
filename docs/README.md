@@ -3,7 +3,7 @@ home: true
 date: 2022-10-24
 title: 主页
 heroHeight: 100
-heroImage: https://github.com/weimin1992.png
+heroImage: https://cdn.porridge.fun/avatar/langming.jpeg
 # tagline: 测试tagline
 features:
   - title: 简洁至上
