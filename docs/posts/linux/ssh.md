@@ -48,7 +48,7 @@ ssh-copy-id [OPTIONS] {username}@{ipHost}
 
 > 自动配置后提示如下图所示表示配置成功并可以开始免密登陆
 
-![自动配置验证](https://cdn.porridge.fun/blog/linux/ssh.png)
+![自动配置验证](https://cdn.porridge.fun/blog/linux/ssh.png$fix.water)
 
 ## 免密登录远程服务器
 
