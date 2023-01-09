@@ -1,6 +1,6 @@
 import { defineClientConfig } from '@vuepress/client'
 import Layout from './layouts/Layout.vue'
-// import 'APlayer/dist/APlayer.min.css';
+// import NotFound from './layouts/NotFound.vue'
 
 export default defineClientConfig({
   // enhance({ app, router, siteData }) {},
@@ -8,5 +8,6 @@ export default defineClientConfig({
   // rootComponents: [],
   layouts: {
     Layout
+    // NotFound
   },
 })
