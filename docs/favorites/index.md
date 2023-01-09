@@ -3,6 +3,12 @@ title: 不吃灰收藏夹
 sidebar: false
 ---
 
+## *2023-1-9*
+
+[Bun.js <MingBadge type="github" text="GitHub" vertical="middle" />](https://github.com/oven-sh/bun)
+> 新的JavaScript运行时，内置本地打包、编译器，任务进程管理以及npm 客户端([官网地址](https://bun.sh))。
+
+---
 ## *2023-1-6*
 
 [antfu/icones <MingBadge type="github" text="GitHub" vertical="middle" />](https://github.com/antfu/icones)
