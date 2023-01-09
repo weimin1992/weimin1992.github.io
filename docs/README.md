@@ -14,7 +14,7 @@ features:
     details: 站点构建说明、搭建博客的目的。
 actions:
   - text: 最新文章
-    link: /posts/css/scrollbar
+    link: /posts/linux/ssh
     type: primary
   - text: 关于
     link: /about

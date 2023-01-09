@@ -18,11 +18,17 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 9,
+  total: 10,
   data: [
     {
       year: 2023,
       posts: [
+        {
+          text: 'ssh key免密登录远程服务器',
+          link: '/posts/linux/ssh',
+          tag: ['Linux'],
+          date: '1月9日'
+        },
         {
           text: '浏览器滚动条默认样式修改',
           link: '/posts/css/scrollbar',
