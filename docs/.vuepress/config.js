@@ -14,7 +14,7 @@ const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig(
   {
-    base: '/blog/',
+    // base: '/blog/',
     lang: 'zh-CN',
     title: `${blogInfo.auther}的博客`,
     description: '化繁为简/make it easier',
