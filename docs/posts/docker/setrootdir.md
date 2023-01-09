@@ -8,7 +8,7 @@ next:
   link: /posts/docker/wordpress
 ---
 
-::: danger 注意事项
+::: warning 注意事项
 
 * 修改根路径之前，需要检查是否有运行的容器会受到影响：比如**Oracle**、**MySql**等实例;
 * 迁移前建议做好数据备份，迁移后要确保已运行实例不受影响的前提下再删除旧的目录。
