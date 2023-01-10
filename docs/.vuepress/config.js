@@ -28,13 +28,12 @@ export default defineUserConfig(
           var _hmt = _hmt || [];
           (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?d5ffc1a86925378ff8f934bbc32a0ff2";
+            hm.src = "https://hm.baidu.com/hm.js?${blogInfo.baiduKey}";
             var s = document.getElementsByTagName("script")[0]; 
             s.parentNode.insertBefore(hm, s);
           })();
         `
       ]
-
     ],
     theme: childTheme({
       logo: blogInfo.siteLogo,
