@@ -20,6 +20,10 @@ export default defineUserConfig(
     description: '化繁为简/make it easier',
     head: [
       [
+        'meta',
+        { name: 'baidu-site-verification', content: `${blogInfo.baiduMetaCode}` }
+      ],
+      [
         'link',
         { rel: 'icon', href: blogInfo.siteLogo || 'https://cdn.porridge.fun/avatar/langming.jpeg' }
       ],
