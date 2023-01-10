@@ -1,4 +1,4 @@
-<template><div><div class="custom-container danger"><p class="custom-container-title">注意事项</p>
+<template><div><div class="custom-container warning"><p class="custom-container-title">注意事项</p>
 <ul>
 <li>修改根路径之前，需要检查是否有运行的容器会受到影响：比如<strong>Oracle</strong>、<strong>MySql</strong>等实例;</li>
 <li>迁移前建议做好数据备份，迁移后要确保已运行实例不受影响的前提下再删除旧的目录。</li>

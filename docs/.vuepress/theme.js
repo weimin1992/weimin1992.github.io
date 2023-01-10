@@ -23,8 +23,7 @@ export const childTheme = (options) => {
     alias: {
       // '@theme/Home.vue': path.resolve(__dirname, './components/MingHome.vue'),
       '@theme/HomeFooter.vue': path.resolve(__dirname, './components/MingHomeFooter.vue'),
-      '@theme/AutoLink.vue': path.resolve(__dirname, './components/MingAutoLink.vue'),
-      '@theme/NavbarBrand.vue': path.resolve(__dirname, './components/MingMusicPlayer.vue'),
+      '@theme/AutoLink.vue': path.resolve(__dirname, './components/MingAutoLink.vue')
     },
   }
 }

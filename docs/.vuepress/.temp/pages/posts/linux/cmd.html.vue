@@ -22,7 +22,7 @@
 <h3 id="用户切换" tabindex="-1"><a class="header-anchor" href="#用户切换" aria-hidden="true">#</a> 用户切换</h3>
 <div class="language-bash line-numbers-mode" data-ext="sh"><pre v-pre class="shiki" style="background-color: #2e3440ff"><code><span class="line"><span style="color: #D8DEE9FF">su {username}   </span><span style="color: #616E88">## 执行后输入密码</span></span>
 <span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div></div></div><h3 id="管理员权限" tabindex="-1"><a class="header-anchor" href="#管理员权限" aria-hidden="true">#</a> 管理员权限</h3>
-<div class="custom-container tip"><p class="custom-container-title">说明</p>
+<div class="custom-container warning"><p class="custom-container-title">注意</p>
 <p>在非管理员账号(root)下，某些命令会提示权限不足，
 通过加<code v-pre>sudo</code>前缀即可临时使用管理员权限执行命令</p>
 </div>
