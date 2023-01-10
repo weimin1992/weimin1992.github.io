@@ -19,7 +19,7 @@ onMounted(() => {
         container: document.getElementById('audio-container'),
         fixed: true,
         lrcType: 3,
-        autoplay: true,
+        autoplay: false,
         theme: '#2496ed',
         audio: [{
           name: '我期待',
