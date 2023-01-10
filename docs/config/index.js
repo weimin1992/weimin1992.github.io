@@ -16,7 +16,8 @@ export const blogInfo = {
   siteStart: '2021-11-23',
   siteLogo: 'https://cdn.porridge.fun/avatar/langming.jpeg',
   baiduKey: 'd5ffc1a86925378ff8f934bbc32a0ff2',
-  baiduMetaCode: 'code-MvNPPBaT8P'
+  baiduMetaCode: 'code-MvNPPBaT8P',
+  hostname: 'https://blog.porridge.fun'
 }
 
 export const postDataSource = {

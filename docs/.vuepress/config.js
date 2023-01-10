@@ -9,6 +9,7 @@ import { copyCodePlugin } from "vuepress-plugin-copy-code2"
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from '@vuepress/utils'
 // import alias from '@rollup/plugin-alias'
+import { sitemapPlugin } from "vuepress-plugin-sitemap2"
 
 const __dirname = getDirname(import.meta.url)
 
@@ -78,6 +79,9 @@ export default defineUserConfig(
           MingBadge: path.resolve(__dirname, './components/MingBadge.vue'),
           MingPosts: path.resolve(__dirname, './components/MingPosts.vue')
         }
+      }),
+      sitemapPlugin({
+        hostname: `${blogInfo.hostname}`
       })
     ],
     bundler: viteBundler({
