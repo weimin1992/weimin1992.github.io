@@ -15,7 +15,7 @@ export const blogInfo = {
   siteRecord: '苏ICP备20019081号-2',
   siteStart: '2021-11-23',
   siteLogo: 'https://cdn.porridge.fun/avatar/langming.jpeg',
-  baiduKey: 'd5ffc1a86925378ff8f934bbc32a0ff2'
+  baiduKey: '024136d62585d8175585d32e3be1bdda'
 }
 
 export const postDataSource = {
