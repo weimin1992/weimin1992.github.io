@@ -22,7 +22,19 @@ export default defineUserConfig(
       [
         'link',
         { rel: 'icon', href: blogInfo.siteLogo || 'https://cdn.porridge.fun/avatar/langming.jpeg' }
+      ],
+      [
+        'script', {}, `
+          var _hmt = _hmt || [];
+          (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?d5ffc1a86925378ff8f934bbc32a0ff2";
+            var s = document.getElementsByTagName("script")[0]; 
+            s.parentNode.insertBefore(hm, s);
+          })();
+        `
       ]
+
     ],
     theme: childTheme({
       logo: blogInfo.siteLogo,
