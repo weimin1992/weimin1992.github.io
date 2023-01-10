@@ -14,7 +14,8 @@ export const blogInfo = {
   github: 'https://github.com/weimin1992',
   siteRecord: '苏ICP备20019081号-2',
   siteStart: '2021-11-23',
-  siteLogo: 'https://cdn.porridge.fun/avatar/langming.jpeg'
+  siteLogo: 'https://cdn.porridge.fun/avatar/langming.jpeg',
+  baiduKey: 'd5ffc1a86925378ff8f934bbc32a0ff2'
 }
 
 export const postDataSource = {
