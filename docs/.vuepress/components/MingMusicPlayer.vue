@@ -8,43 +8,40 @@
  */
 <script setup>
 import ParentNavbarBrand from '@vuepress/theme-default/lib/client/components/NavbarBrand.vue'
-import 'aplayer/dist/APlayer.min.css';
-import { onUnmounted, onMounted, ref } from 'vue'
-let audioRef = ref(null)
+// import 'aplayer/dist/APlayer.min.css';
+// import { onUnmounted, onMounted, ref } from 'vue'
+// let audioRef = ref(null)
 
-onMounted(() => {
-  import('aplayer').then(module => {
-    if (module.default) {
-      audioRef = new module.default({
-        container: document.getElementById('audio-container'),
-        fixed: true,
-        lrcType: 3,
-        autoplay: false,
-        theme: '#2496ed',
-        audio: [{
-          name: '我期待',
-          artist: '张雨生',
-          url: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.mp3',
-          cover: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.jpg',
-          lrc: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.lrc'
-        }]
-      })
-    }
+// onMounted(() => {
+//   import('aplayer').then(module => {
+//     if (module.default) {
+//       audioRef = new module.default({
+//         container: document.getElementById('audio-container'),
+//         fixed: true,
+//         lrcType: 3,
+//         autoplay: false,
+//         theme: '#2496ed',
+//         audio: [{
+//           name: '我期待',
+//           artist: '张雨生',
+//           url: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.mp3',
+//           cover: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.jpg',
+//           lrc: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.lrc'
+//         }]
+//       })
+//     }
+//   })
+// })
 
-  })
-
-
-})
-
-onUnmounted(() => {
-  if (audioRef) {
-    audioRef = null
-  }
-})
+// onUnmounted(() => {
+//   if (audioRef) {
+//     audioRef = null
+//   }
+// })
 
 </script>
 
 <template>
   <ParentNavbarBrand />
-  <div id="audio-container" />
+  <!-- <div id="audio-container" /> -->
 </template>
