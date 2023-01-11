@@ -7,6 +7,24 @@
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
+ @font-face {
+   font-weight: normal;
+   font-family: MaShanZhengRegular;
+   font-style: normal;
+   src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff2") format('woff2'),
+     url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff") format('woff');
+   font-display: swap;
+ }
+
+//  @font-face {
+//    font-family: MaShanZhengRegular;
+//    font-weight: normal;
+//    font-style: normal;
+//    src: url('/fonts/MaShanZheng-Regular.woff2') format('woff2'),
+//      url('/fonts/MaShanZheng-Regular.woff') format('woff');
+//    font-display: swap;
+//  }
+
 :root {
   //ming-custom-vars
   --m-nord-frost-one: #8fbcbb;
@@ -196,14 +214,7 @@ html.dark {
 //   --search-item-focus-bg-color: var(--c-bg-light);
 // }
 
-@font-face {
-  font-weight: normal;
-  font-family: MaShanZhengRegular;
-  font-style: normal;
-  src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff2") format('woff2');
-  src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff") format('woff');
-  font-display: swap;
-}
+
 // 样式规则覆盖
 .page{
   padding-bottom: 0;
