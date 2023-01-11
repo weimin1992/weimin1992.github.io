@@ -46,8 +46,5 @@ onUnmounted(() => {
 
 <template>
   <ParentNavbarBrand />
-  <ClientOnly>
-    <div id="audio-container">
-    </div>
-  </ClientOnly>
+  <div id="audio-container" />
 </template>
