@@ -12,6 +12,7 @@ import { blogInfo } from '../../config'
 import { reactive, onUnmounted, onMounted, ref } from 'vue'
 import dayjs from 'dayjs'
 import duration from 'dayjs/plugin/duration'
+import { ClientOnly } from '@vuepress/client';
 dayjs.extend(duration)
 
 let timer = ref(null)
@@ -40,15 +41,17 @@ onUnmounted(() => {
 })
 </script>
 <template>
-  <div p-5 flex-col gap-1 flex justify-center items-center text-center dark:text-theme-dark>
-    <div>Copyright &copy; {{ `${startYear}~${currentYear}` }} <a href="https://github.com/weimin1992"
-        target="_blank"><span inline-flex i-carbon-logo-github text-1xl></span>浪铭</a></div>
-    <div flex items-center gap-1>
-      <div inline-flex i-noto-v1-flag-for-flag-china hover:animate-bounce></div>
-      <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">{{ blogInfo.siteRecord }}</a>
+  <ClientOnly>
+    <div p-5 flex-col gap-1 flex justify-center items-center text-center dark:text-theme-dark>
+      <div>Copyright &copy; {{ `${startYear}~${currentYear}` }} <a href="https://github.com/weimin1992"
+          target="_blank"><span inline-flex i-carbon-logo-github text-1xl></span>浪铭</a></div>
+      <div flex items-center gap-1>
+        <div inline-flex i-noto-v1-flag-for-flag-china hover:animate-bounce></div>
+        <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">{{ blogInfo.siteRecord }}</a>
+      </div>
+      <div>
+        <div text-rose-5 animate-bounce inline-flex i-dashicons-heart></div> 站点已运行：{{ state.duration }}
+      </div>
     </div>
-    <div>
-      <div text-rose-5 animate-bounce inline-flex i-dashicons-heart></div> 站点已运行：{{ state.duration }}
-    </div>
-  </div>
+  </ClientOnly>
 </template>
