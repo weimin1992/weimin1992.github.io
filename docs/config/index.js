@@ -19,11 +19,17 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 10,
+  total: 11,
   data: [
     {
       year: 2023,
       posts: [
+        {
+          text: 'terser-webpack-plugin删除控制台打印消息',
+          link: '/posts/webpack/terser',
+          tag: ['Webpack'],
+          date: '1月11日'
+        },
         {
           text: 'ssh key免密登录远程服务器',
           link: '/posts/linux/ssh',

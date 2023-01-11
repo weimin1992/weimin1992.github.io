@@ -31,7 +31,7 @@ article.ming-article a {
   transition: .2s all ease-out;
   text-decoration: none;
   border-bottom: none !important;
-  opacity: .6;
+  opacity: .7;
 }
 
 article.ming-article a:hover {
