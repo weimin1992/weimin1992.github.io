@@ -16,9 +16,9 @@
   --m-nord-snow-storm-one: #d8dee9;
   --m-nord-snow-storm-two: #e5e9f0;
   --m-nord-snow-storm-three: #eceff4;
-  --m-tag-oracle:#c74634;
-  --m-tag-docker: #2496ed;
-  --m-tag-linux:#ff6c0e;
+  --m-tag-oracle:#f80000;
+  --m-tag-docker: #2496eD;
+  --m-tag-linux:#fcc624;
 
   --m-klein-blue: #002fa7;
   --m-protect-eye-bg: #f5f5d5;
@@ -28,8 +28,11 @@
   --m-tag-yellow: #ffcd3c;
   --m-tag-green: #35d0ba;
   --m-tag-blue: #009eff;
-  --m-tag-git: #f14e32;
+  --m-tag-git: #f05032;
   --m-tag-webpack: #8dd6f9;
+  --m-tag-vite: #646cff;
+  --m-tag-vue: #4fc08d;
+  --m-tag-css: #1572b6;
 
   // --m-color-accent-fg: #0969da;
   // 覆盖vuepress默认变量值
@@ -211,6 +214,7 @@ html.dark {
 }
 
 .ming-badge {
+  // color: var(--m-nord-snow-storm-two);
   color: var(--m-nord-snow-storm-three);
   border-radius: 6px;
 }
@@ -248,11 +252,15 @@ html.dark {
 }
 
 .ming-badge.css {
-  background-color: var(--m-tag-orange);
+  background-color: var(--m-tag-css);
 }
 
 .ming-badge.git {
   background-color: var(--m-tag-git);
+}
+
+.ming-badge.vue {
+  background-color: var(--m-tag-vue);
 }
 
 .ming-badge.webpack {
