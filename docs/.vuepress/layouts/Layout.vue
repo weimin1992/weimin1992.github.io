@@ -9,7 +9,7 @@
 
 <script setup>
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
-import CopyRight from '../components/CopyRight.vue'
+// import CopyRight from '../components/CopyRight.vue'
 import 'uno.css';
 </script>
 
@@ -18,7 +18,7 @@ import 'uno.css';
     <template #page-bottom>
       <div>
         <hr>
-        <CopyRight />
+        <!-- <CopyRight /> -->
       </div>
     </template>
   </ParentLayout>

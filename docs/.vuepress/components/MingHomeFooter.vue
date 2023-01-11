@@ -6,13 +6,13 @@
  * @Last Modified time: 2022-12-20 17:43:07
  * @Description: 主页Footer
  */
-<script setup>
+<!-- <script setup>
 import CopyRight from './CopyRight.vue'
-</script>
+</script> -->
 
 <template>
   <div>
     <hr>
-    <CopyRight />
+    <!-- <CopyRight /> -->
   </div>
 </template>
