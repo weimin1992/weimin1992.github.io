@@ -7,14 +7,15 @@
  * @Description: vuepress样式变量、样式规则覆盖
  */
 
- @font-face {
-   font-weight: normal;
-   font-family: MaShanZhengRegular;
-   font-style: normal;
-   src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff2") format('woff2'),
-     url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff") format('woff');
-   font-display: swap;
- }
+//  自定义字体
+@font-face {
+  font-weight: normal;
+  font-family: MaShanZhengRegular;
+  font-style: normal;
+  src: url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff2") format('woff2'),
+    url("https://cdn.porridge.fun/blog/fonts/MaShanZheng-Regular.woff") format('woff');
+  font-display: swap;
+}
 
 //  @font-face {
 //    font-family: MaShanZhengRegular;
@@ -34,9 +35,9 @@
   --m-nord-snow-storm-one: #d8dee9;
   --m-nord-snow-storm-two: #e5e9f0;
   --m-nord-snow-storm-three: #eceff4;
-  --m-tag-oracle:#f80000;
+  --m-tag-oracle: #f80000;
   --m-tag-docker: #2496eD;
-  --m-tag-linux:#fcc624;
+  --m-tag-linux: #fcc624;
 
   --m-klein-blue: #002fa7;
   --m-protect-eye-bg: #f5f5d5;
@@ -148,7 +149,7 @@
 
 // 夜间模式配色
 html.dark {
-   --c-bg: var(--m-dark-bg);
+  --c-bg: var(--m-dark-bg);
   // --c-bg: #064663;
   --c-brand: var(--m-nord-frost-one);
 }
@@ -187,10 +188,10 @@ html.dark {
 //   --medium-zoom-bg-color: var(--c-bg);
 // }
 
-// // plugin-nprogress
-// #nprogress {
-//   --nprogress-color: var(--c-brand);
-// }
+// plugin-nprogress
+#nprogress {
+  --nprogress-color: var(--c-brand);
+}
 
 // // plugin-pwa-popup
 // .pwa-popup {
@@ -216,12 +217,21 @@ html.dark {
 
 
 // 样式规则覆盖
-.page{
+.page {
   padding-bottom: 0;
 }
 
-.navbar .logo{
+.navbar .logo {
   border-radius: 50%;
+}
+
+// 歌词样式
+.aplayer.aplayer-fixed .aplayer-lrc {
+  font-family: var(--font-family);
+  top: var(--navbar-padding-v);
+}
+.aplayer .aplayer-lrc p {
+  color: var(--c-brand);
 }
 
 .ming-badge {
@@ -281,4 +291,3 @@ html.dark {
 .ming-badge.github {
   background-image: linear-gradient(to bottom, #8241f9, #4e277b);
 }
-
