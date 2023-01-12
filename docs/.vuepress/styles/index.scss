@@ -51,6 +51,7 @@
   --m-tag-webpack: #8dd6f9;
   --m-tag-vite: #646cff;
   --m-tag-vue: #4fc08d;
+  --m-tag-react: #61dafb;
   --m-tag-css: #1572b6;
 
   // --m-color-accent-fg: #0969da;
@@ -282,6 +283,10 @@ html.dark {
 
 .ming-badge.vue {
   background-color: var(--m-tag-vue);
+}
+
+.ming-badge.react {
+  background-color: var(--m-tag-react);
 }
 
 .ming-badge.webpack {

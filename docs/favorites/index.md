@@ -3,6 +3,12 @@ title: 不吃灰收藏夹
 sidebar: false
 ---
 
+## *2023-1-12*
+
+[Build your own React <MingBadge type="react" text="React" vertical="middle" />](https://pomb.us/build-your-own-react/)
+> 该博文实现了一个简易的 React 框架：一步步地从头开始重写 React。遵循真正的 React 源码的架构，但不会实现所有的优化和非必要的功能。
+
+---
 ## *2023-1-9*
 
 [Bun.js <MingBadge type="github" text="GitHub" vertical="middle" />](https://github.com/oven-sh/bun)
