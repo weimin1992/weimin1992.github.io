@@ -237,8 +237,6 @@ html.dark {
 }
 
 .ming-badge {
-  // color: var(--m-dark-bg);
-  // color: var(--m-nord-snow-storm-three);
   border-radius: 6px;
 }
 
@@ -273,9 +271,9 @@ html.dark {
 .ming-badge.linux {
   background-color: var(--m-tag-linux);
 }
-
 .ming-badge.css {
   background-color: var(--m-tag-css);
+  color: rgba(246, 246, 246, var(--un-text-opacity));
 }
 
 .ming-badge.git {
@@ -296,6 +294,7 @@ html.dark {
 
 .ming-badge.github {
   background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+  color: rgba(246, 246, 246, var(--un-text-opacity));
 }
 
 .ming-badge.javascript {
