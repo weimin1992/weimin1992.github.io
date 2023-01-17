@@ -6,7 +6,7 @@ prev:
 
 ---
 
->记录使用docker-compose搭建wordpress站点的过程（站点目前已使用Vuepress重新构建)，[参考地址](https://zhuanlan.zhihu.com/p/462786002)
+> 记录使用docker-compose搭建wordpress站点的过程（站点目前已使用Vuepress重新构建)。
 
 -------------
 
@@ -158,4 +158,8 @@ server {
 docker-compose up -d
 ```
 
->运行以上命令后完成服务器端的配置，首先运行 `docker ps -a` 验证 *mysql*、*phpmyadmin*、*wordpress*、*nginx*容器是否均成功启动。若均处于up状态，再通过访问站点开始配置wordpress！
+> 运行以上命令后完成服务器端的配置，首先运行 `docker ps -a` 验证 *mysql*、*phpmyadmin*、*wordpress*、*nginx*容器是否均成功启动。若均处于up状态，再通过访问站点开始配置wordpress！
+
+-------------
+
+[参考地址](https://zhuanlan.zhihu.com/p/462786002)

@@ -15,7 +15,7 @@ import { postDataSource } from '../../config'
             <div title text-lg leading-1.2em>
               <span align-middle>{{ post.text }}</span>
             </div>
-            <div opacity-70 text-sm>
+            <div opacity-60 text-sm dark:opacity-80>
               {{ post.date }}
               <MingBadge v-for="(tag, _tagIndex) in post.tag" :type="tag.toLowerCase()" :text="tag" vertical="middle" />
             </div>
