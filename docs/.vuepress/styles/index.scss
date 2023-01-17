@@ -53,6 +53,7 @@
   --m-tag-vue: #4fc08d;
   --m-tag-react: #61dafb;
   --m-tag-css: #1572b6;
+  --m-tag-javascript: #f7df1e;
 
   // --m-color-accent-fg: #0969da;
   // 覆盖vuepress默认变量值
@@ -236,8 +237,8 @@ html.dark {
 }
 
 .ming-badge {
-  // color: var(--m-nord-snow-storm-two);
-  color: var(--m-nord-snow-storm-three);
+  // color: var(--m-dark-bg);
+  // color: var(--m-nord-snow-storm-three);
   border-radius: 6px;
 }
 
@@ -295,4 +296,8 @@ html.dark {
 
 .ming-badge.github {
   background-image: linear-gradient(to bottom, #8241f9, #4e277b);
+}
+
+.ming-badge.javascript {
+  background-color: var(--m-tag-javascript);
 }

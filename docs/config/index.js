@@ -21,11 +21,17 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 11,
+  total: 12,
   data: [
     {
       year: 2023,
       posts: [
+        {
+          text: 'JavaScript 转换 input 数据类型的新方法',
+          link: '/posts/javascript/valueas',
+          tag: ['Javascript'],
+          date: '1月17日'
+        },
         {
           text: 'terser-webpack-plugin删除控制台打印消息',
           link: '/posts/webpack/terser',

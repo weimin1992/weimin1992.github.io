@@ -15,7 +15,7 @@ import { postDataSource } from '../../config'
             <div title text-lg leading-1.2em>
               <span align-middle>{{ post.text }}</span>
             </div>
-            <div opacity-70 text-sm>
+            <div opacity-60 text-sm>
               {{ post.date }}
               <MingBadge v-for="(tag, _tagIndex) in post.tag" :type="tag.toLowerCase()" :text="tag" vertical="middle" />
             </div>
@@ -31,7 +31,7 @@ article.ming-article a {
   transition: .2s all ease-out;
   text-decoration: none;
   border-bottom: none !important;
-  opacity: .7;
+  opacity: .9;
 }
 
 article.ming-article a:hover {

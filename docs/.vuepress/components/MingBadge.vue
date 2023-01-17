@@ -29,7 +29,7 @@ defineProps({
 
 <template>
   <span
-    class="badge ming-badge"
+    class="badge ming-badge text-dark dark:text-light"
     :class="type"
     :style="{
       verticalAlign: vertical,
