@@ -21,13 +21,19 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 12,
+  total: 13,
   data: [
     {
       year: 2023,
       posts: [
         {
-          text: 'JavaScript 转换 input 数据类型的新方法',
+          text: 'Docker 环境下 Jenkins 时区设置',
+          link: '/posts/docker/jenkins/timezone',
+          tag: ['Docker'],
+          date: '1月18日'
+        },
+        {
+          text: 'JavaScript 转换 input 数据类型的推荐方法',
           link: '/posts/javascript/valueas',
           tag: ['Javascript'],
           date: '1月17日'
