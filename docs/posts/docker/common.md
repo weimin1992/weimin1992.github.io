@@ -3,6 +3,9 @@ title: Docker常用命令
 next:
   text: Docker根路径（data-root）修改
   link: /posts/docker/setrootdir
+prev:
+  text: Docker 环境下Jenkins 时区设置
+  link: /posts/docker/jenkins/timezone
 ---
 
 ::: warning 说明
@@ -322,6 +325,12 @@ docker rm -f {container id}
 
 * 容器运行时可以直接删除
 :::
+
+### 进入容器后台
+
+``` bash:no-line-numbers
+docker exec -it -u {username} {container id}
+```
 
 ### 设置容器开机自启动
 

@@ -1,5 +1,5 @@
 ---
-title: JavaScript转换input数据类型的新方法
+title: JavaScript转换input数据类型的推荐方法
 ---
 
 > 在使用`input` 元素且 `type` 属性值不是默认的`text`的时候（`number`、`date`）, 获取输入数据的参数`e.target.value`为`string`类型，在业务逻辑中往往需要将`string`转换为`number`、`date`，常规的转换方式为`parseFloat`、`parseInt`、`Date.parse`等方法转换，现在更推荐的方式是使用`valueAsNumber`、`valueAsDate`方法。
