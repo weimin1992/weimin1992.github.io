@@ -5,7 +5,7 @@ next:
   link: /posts/docker/common
 ---
 
-> Jenkins Docker 容器启动后时区默认是`Etc/UTC`，因此每次运行作业会发现构建历史中的时间都会比本地时间早8个小时，本文记录修改Jenkins 默认时区的方法
+> Jenkins Docker 容器启动后时区默认是`Etc/UTC`，每次运行作业会发现构建历史中的时间都会比本地时间早8个小时，本文记录修改Jenkins 默认时区的方法
 
 ## 进入 Docker 容器后台
 
