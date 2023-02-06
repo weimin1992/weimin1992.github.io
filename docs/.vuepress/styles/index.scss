@@ -38,6 +38,7 @@
   --m-tag-oracle: #f80000;
   --m-tag-docker: #2496eD;
   --m-tag-linux: #fcc624;
+  --m-tag-windows: #0078d6;
 
   --m-klein-blue: #002fa7;
   --m-protect-eye-bg: #f5f5d5;
@@ -299,4 +300,8 @@ html.dark {
 
 .ming-badge.javascript {
   background-color: var(--m-tag-javascript);
+}
+
+.ming-badge.windows{
+  background-color: var(--m-tag-windows)
 }

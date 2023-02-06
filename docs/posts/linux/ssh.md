@@ -119,7 +119,6 @@ sftp {custom alias}
 ``` bash:no-line-numbers
 scp /local/path/to/files.extension {username}@{custom alias}:/remote/path # 单个本地文件复制到远程服务器
 scp -r /local/path/ {username}@{custom alias}:/remote/path/ #本地目录复制到远程服务器
-
 ```
 
   </CodeGroupItem>
