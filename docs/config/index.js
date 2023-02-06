@@ -21,11 +21,17 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 13,
+  total: 14,
   data: [
     {
       year: 2023,
       posts: [
+        {
+          text: 'Windows 下设置 Nginx 开机自启',
+          link: '/posts/windows/nginxstart',
+          tag: ['Windows'],
+          date: '2月6日'
+        },
         {
           text: 'Docker 环境下 Jenkins 时区设置',
           link: '/posts/docker/jenkins/timezone',

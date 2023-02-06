@@ -14,7 +14,7 @@ features:
     details: 站点构建说明、搭建博客的目的。
 actions:
   - text: 最新文章
-    link: /posts/docker/jenkins/timezone
+    link: /posts/windows/nginxstart
     type: primary
   - text: 关于
     link: /about
