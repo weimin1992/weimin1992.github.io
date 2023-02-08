@@ -3,6 +3,11 @@ title: 不吃灰收藏夹
 sidebar: false
 ---
 
+## *2023-2-8*
+
+[React Router<MingBadge type="react" text="React" vertical="middle" /><MingBadge type="blue" text="api" vertical="middle" />](https://reactrouter.com/en/main)
+> React Router V6 官方文档 (main版本为`6.8.1`)
+
 ## *2023-1-12*
 
 [Build your own React <MingBadge type="react" text="React" vertical="middle" />](https://pomb.us/build-your-own-react/)
