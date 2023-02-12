@@ -23,9 +23,9 @@ nginx -s reload
 * 点击`完成`
 * 任务列表中右击该任务，并选中`启用[N]`选项
 
-## 使用 Winwx 工具注册 Windows 服务
+## 使用 WinSW 工具注册 Windows 服务
 
-1.下载对应位数的 [Windwx安装包](https://github.com/winsw/winsw/releases)（64位对应`WinSW-x64.exe`,32位对应`WinSW-x86.exe`）并重命名为`nginx-service.exe`放入 nginx 安装目录中
+1.下载对应位数的 [WinSW安装包](https://github.com/winsw/winsw/releases)（64位对应`WinSW-x64.exe`,32位对应`WinSW-x86.exe`）并重命名为`nginx-service.exe`放入 nginx 安装目录中
 
 2.在nginx安装目录中创建`nginx-service.xml`文件，粘贴如下内容
 

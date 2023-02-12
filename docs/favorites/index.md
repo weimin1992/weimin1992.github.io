@@ -3,6 +3,17 @@ title: 不吃灰收藏夹
 sidebar: false
 ---
 
+## *2023-2-12*
+[ChatGPT 注册办法](https://sms-activate.org/cn/info/ChatGPT)
+> 国内不支持ChatGPT的注册，使用[sms](https://sms-activate.org/cn)平台进行注册，接受短信验证码可以成功注册[ChatGPT](https://chat.openai.com)(需要充值1美元)
+
+![ChatGPT](https://cdn.porridge.fun/blog/favorites/chatgpt.png$fix.water)
+
+## *2023-2-8*
+
+[React Router<MingBadge type="react" text="React" vertical="middle" /><MingBadge type="blue" text="api" vertical="middle" />](https://reactrouter.com/en/main)
+> React Router V6 官方文档 (main版本为`6.8.1`)
+
 ## *2023-1-12*
 
 [Build your own React <MingBadge type="react" text="React" vertical="middle" />](https://pomb.us/build-your-own-react/)
