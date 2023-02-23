@@ -39,7 +39,8 @@
   --m-tag-docker: #2496eD;
   --m-tag-linux: #fcc624;
   --m-tag-windows: #0078d6;
-
+  --m-tag-postgresql: #4169e1;
+  --m-tag-qgis: #589632;
   --m-klein-blue: #002fa7;
   --m-protect-eye-bg: #f5f5d5;
   --m-dark-bg: #2e3440;
@@ -302,7 +303,13 @@ html.dark {
   background-color: var(--m-tag-javascript);
 }
 .ming-badge.windows{
-  background-color: var(--m-tag-windows)
+  background-color: var(--m-tag-windows);
+}
+.ming-badge.postgresql {
+  background-color: var(--m-tag-postgresql);
+}
+.ming-badge.qgis {
+  background-color: var(--m-tag-qgis);
 }
 
 // .ming-article {
