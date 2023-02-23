@@ -19,11 +19,17 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 14,
+  total: 15,
   data: [
     {
       year: 2023,
       posts: [
+        {
+          text: '使用 QGIS 将 ArcGIS Server 发布的图层导入到 PostGIS',
+          link: '/posts/gis/postgis',
+          tag: ['QGIS','PostgreSQL'],
+          date: '2月23日'
+        },
         {
           text: 'Windows 下设置 Nginx 开机自启',
           link: '/posts/windows/nginxstart',
