@@ -3,9 +3,7 @@ title: 使用QGIS将ArcGIS Server发布的图层导入到PostGIS
 ---
 
 
->QGIS是一款开源的GIS数据浏览、数据管理的综合平台，该软件支持很多数据源，本文记录使用QGIS将ArcGIS Server发布的图层数据导入到PostGIS中
-
--------------
+>QGIS 是一款开源的 GIS 数据浏览、数据管理的综合平台，该软件支持很多数据源，本文记录使用 QGIS 将ArcGIS Server发布的图层数据导入到 PostGIS 中
 
 ## QGIS 的下载与安装
 
@@ -31,7 +29,7 @@ title: 使用QGIS将ArcGIS Server发布的图层导入到PostGIS
 
 ![带点线面icon的图层](https://cdn.porridge.fun/blog/gis/QGIS-5.png)
 
-继续选择`导出图层 => 到文件`，在弹出的面板中将格式选中为`ESRI Shapefile`后，填入下图红框中的信息，
+继续选择`导出图层 => 到文件`，在弹出的面板中将格式选中为`ESRI Shapefile`后，填入图中红框中的信息
 
 ![导出](https://cdn.porridge.fun/blog/gis/QGIS-6.png)
 
