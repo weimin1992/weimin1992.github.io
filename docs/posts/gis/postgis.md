@@ -15,7 +15,7 @@ title: 使用QGIS将ArcGIS Server发布的图层导入到PostGIS
 
 ![新建ArcGIS REST 服务器](https://cdn.porridge.fun/blog/gis/QGIS-2.png$fix.water)
 
-输入连接名称后，将 ArcGIS Server 发布的服务地址粘贴到`url`输入框中(示例：`http://172.16.9.114:6080/arcgis/rest/services/`)
+输入连接名称后，将 ArcGIS Server 发布的服务地址粘贴到`url`输入框中(示例：`http://192.16.9.110:6080/arcgis/rest/services/`)
 
 ## 导出ArcGIS Server 发布的图层数据
 
