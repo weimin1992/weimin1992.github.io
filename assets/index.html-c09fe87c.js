@@ -1,0 +1,1 @@
+import{_ as n,M as o,p as t,q as s,R as c,N as r}from"./framework-fb92cdbb.js";const _={};function a(l,m){const e=o("MingPosts");return t(),s("div",null,[c("最近修改时间：2023-02-23 "),r(e)])}const d=n(_,[["render",a],["__file","index.html.vue"]]);export{d as default};
