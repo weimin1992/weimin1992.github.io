@@ -10,6 +10,7 @@ import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import { getDirname, path } from '@vuepress/utils'
 // import alias from '@rollup/plugin-alias'
 import { sitemapPlugin } from "vuepress-plugin-sitemap2"
+import { commentPlugin } from "vuepress-plugin-comment2";
 
 const __dirname = getDirname(import.meta.url)
 
@@ -74,6 +75,10 @@ export default defineUserConfig(
       }),
       shikiPlugin({}),
       copyCodePlugin({}),
+      commentPlugin({
+        provider: 'Waline',
+        serverURL: blogInfo.commentServerURL
+      }),
       registerComponentsPlugin({
         components: {
           MingBadge: path.resolve(__dirname, './components/MingBadge.vue'),

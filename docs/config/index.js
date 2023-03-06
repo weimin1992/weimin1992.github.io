@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-21 17:09:46
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-06 16:21:26
+ * @Last Modified time: 2023-03-06 10:58:48
  * @Description: 站点配置信息
  */
 
@@ -17,7 +17,8 @@ export const blogInfo = {
   siteLogo: 'https://cdn.porridge.fun/avatar/langming.jpeg',
   baiduKey: 'd5ffc1a86925378ff8f934bbc32a0ff2',
   baiduMetaCode: 'code-MvNPPBaT8P',
-  hostname: 'https://blog.porridge.fun'
+  hostname: 'https://blog.porridge.fun',
+  commentServerURL: 'http://porridge.fun:8360'
 }
 
 export const postDataSource = {

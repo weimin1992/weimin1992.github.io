@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-14 13:27:17
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-01-04 14:08:05
+ * @Last Modified time: 2023-03-06 10:07:33
  * @Description: 子主题
  */
 import { defaultTheme } from 'vuepress'
@@ -25,6 +25,7 @@ export const childTheme = (options) => {
       '@theme/HomeFooter.vue': path.resolve(__dirname, './components/MingHomeFooter.vue'),
       '@theme/AutoLink.vue': path.resolve(__dirname, './components/MingAutoLink.vue'),
       '@theme/NavbarBrand.vue': path.resolve(__dirname, './components/MingMusicPlayer.vue'),
+      '@theme/Page.vue': path.resolve(__dirname, './components/MingPage.vue'),
     },
   }
 }
