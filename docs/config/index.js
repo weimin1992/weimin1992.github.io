@@ -18,7 +18,7 @@ export const blogInfo = {
   baiduKey: 'd5ffc1a86925378ff8f934bbc32a0ff2',
   baiduMetaCode: 'code-MvNPPBaT8P',
   hostname: 'https://blog.porridge.fun',
-  commentServerURL: 'http://porridge.fun:8360'
+  commentServerURL: 'https://porridge.fun'
 }
 
 export const postDataSource = {
