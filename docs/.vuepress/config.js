@@ -77,7 +77,10 @@ export default defineUserConfig(
       copyCodePlugin({}),
       commentPlugin({
         provider: 'Waline',
-        serverURL: blogInfo.commentServerURL
+        serverURL: blogInfo.commentServerURL,
+        login: 'disable',
+        wordLimit: 2000,
+        copyright: false
       }),
       registerComponentsPlugin({
         components: {
