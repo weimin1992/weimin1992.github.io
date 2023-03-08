@@ -59,3 +59,5 @@ title: 使用QGIS将ArcGIS Server发布的图层导入到PostGIS
 
 导入成功后，`数据库管理器`中点击面板上方的刷新按钮，查看数据连接下是否有新增的表，使用其他数据库管理工具也可进行验证
 ![验证](https://cdn.porridge.fun/blog/gis/QGIS-10.png$fix.water)
+
+<CommentService />

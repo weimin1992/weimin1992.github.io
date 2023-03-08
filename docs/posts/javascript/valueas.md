@@ -83,3 +83,5 @@ title: JavaScript转换input数据类型的推荐方法
 ## 参考
 1. [Steve (Builder.io)](https://www.builder.io/blog/numbers-and-dates)
 2. [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLInputElement)
+
+<CommentService />

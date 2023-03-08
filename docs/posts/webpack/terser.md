@@ -72,3 +72,5 @@ module.exports = {
 > 打包并发布到生产环境后，查看浏览器控制台发现浏览器console空空如也!
 
 [webpack terser-webpack-plugin 官网配置项参考](https://webpack.js.org/plugins/terser-webpack-plugin/)
+
+<CommentService />

@@ -46,3 +46,5 @@ sqlplus -V
 
 输出如下结果表示安装成功
 ![验证安装](https://cdn.porridge.fun/blog/oracle/sqlplus/%E9%AA%8C%E8%AF%81.png$fix.water)
+
+<CommentService />

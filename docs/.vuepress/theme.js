@@ -3,7 +3,7 @@
  * @Email: weimin1992@outlook.com
  * @Date: 2022-12-14 13:27:17
  * @Last Modified by: weimin1992
- * @Last Modified time: 2023-03-08 09:00:45
+ * @Last Modified time: 2023-03-08 09:58:35
  * @Description: 子主题
  */
 import { defaultTheme } from 'vuepress'
@@ -22,7 +22,7 @@ export const childTheme = (options) => {
     // 覆盖组件别名
     alias: {
       // '@theme/Home.vue': path.resolve(__dirname, './components/MingHome.vue'),
-      '@theme/Page.vue': path.resolve(__dirname, './components/MingPage.vue'),
+      // '@theme/Page.vue': path.resolve(__dirname, './components/MingPage.vue'),
       '@theme/HomeFooter.vue': path.resolve(__dirname, './components/MingHomeFooter.vue'),
       '@theme/AutoLink.vue': path.resolve(__dirname, './components/MingAutoLink.vue'),
       '@theme/NavbarBrand.vue': path.resolve(__dirname, './components/MingMusicPlayer.vue'),

@@ -67,3 +67,5 @@ next:
 > 等待安装完成...
 
 ![安装10](https://cdn.porridge.fun/blog/oracle/install/oracle_install_12.png$fix.water)
+
+<CommentService />

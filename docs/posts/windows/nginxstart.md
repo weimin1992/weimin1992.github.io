@@ -49,3 +49,5 @@ nginx-service.exe install
 ```
 
 4.在 Windows 服务中验证是否已经存在名为`nginx`的服务，若存在则右击配置服务自动启动即可
+
+<CommentService />

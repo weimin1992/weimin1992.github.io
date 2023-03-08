@@ -69,3 +69,5 @@ docker ps -a
 - 最后再输入命令`df -h`检查一下是否解决根目录磁盘已用空间所占比例很高的问题（由95%降低到10%）
 
 ![检查磁盘空间](https://cdn.porridge.fun/blog/docker/setrootdir/4.png$fix.water)
+
+<CommentService />

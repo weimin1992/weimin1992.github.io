@@ -130,3 +130,5 @@ scp -r /local/path/ {username}@{custom alias}:/remote/path/ #本地目录复制�
 * `sftp`交互终端可通过`pwd`和`lpwd`查看服务器和本地当前目录、通过`cd`和`lcd`切换服务器和本地当前目录(如果本地和服务器都切换到对应的目录，只需要`get`文件名或`put`文件名即可)
 * `scp`相比`sftp`更轻量，无需调出交互终端再次输入`get`、`put`命令
 :::
+
+<CommentService />
