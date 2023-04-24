@@ -22,12 +22,18 @@ onMounted(() => {
         autoplay: false,
         theme: '#2496ed',
         audio: [{
-          name: '你笑着流出了泪',
-          artist: '尹吾',
-          url: 'https://cdn.porridge.fun/blog/audio/%E5%B0%B9%E5%90%BE%20-%20%E4%BD%A0%E7%AC%91%E7%9D%80%E6%B5%81%E5%87%BA%E4%BA%86%E6%B3%AA.mp3',
-          cover: 'https://cdn.porridge.fun/blog/audio/%E5%B0%B9%E5%90%BE%20-%20%E4%BD%A0%E7%AC%91%E7%9D%80%E6%B5%81%E5%87%BA%E4%BA%86%E6%B3%AA.jpg',
-          lrc: 'https://cdn.porridge.fun/blog/audio/%E5%B0%B9%E5%90%BE%20-%20%E4%BD%A0%E7%AC%91%E7%9D%80%E6%B5%81%E5%87%BA%E4%BA%86%E6%B3%AA.lrc'
+          name: '心乱飞',
+          artist: '陶喆',
+          url: 'https://cdn.porridge.fun/blog/audio/%E9%99%B6%E5%96%86%20-%20%E5%BF%83%E4%B9%B1%E9%A3%9E.mp3',
+          cover: 'https://cdn.porridge.fun/blog/audio/%E9%99%B6%E5%96%86%20-%20%E5%BF%83%E4%B9%B1%E9%A3%9E.jpg',
+          lrc: 'https://cdn.porridge.fun/blog/audio/%E9%99%B6%E5%96%86%20-%20%E5%BF%83%E4%B9%B1%E9%A3%9E.lrc'
         }, {
+          name: '沙滩',
+          artist: '陶喆',
+          url: 'https://cdn.porridge.fun/blog/audio/%E9%99%B6%E5%96%86%20-%20%E6%B2%99%E6%BB%A9.mp3',
+          cover: 'https://cdn.porridge.fun/blog/audio/%E9%99%B6%E5%96%86%20-%20%E5%BF%83%E4%B9%B1%E9%A3%9E.jpg',
+          lrc: 'https://cdn.porridge.fun/blog/audio/%E9%99%B6%E5%96%86%20-%20%E6%B2%99%E6%BB%A9.lrc'
+        },{
           name: '我期待',
           artist: '张雨生',
           url: 'https://cdn.porridge.fun/blog/audio/%E5%BC%A0%E9%9B%A8%E7%94%9F%20-%20%E6%88%91%E6%9C%9F%E5%BE%85.mp3',
