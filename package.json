@@ -21,6 +21,7 @@
     "@unocss/preset-icons": "^0.50.3",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vuepress/client": "2.0.0-beta.61",
+    "@vuepress/plugin-palette": "2.0.0-beta.61",
     "@vuepress/plugin-register-components": "2.0.0-beta.61",
     "@vuepress/plugin-search": "2.0.0-beta.61",
     "@vuepress/plugin-shiki": "2.0.0-beta.61",
