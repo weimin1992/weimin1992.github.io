@@ -22,15 +22,21 @@ export const blogInfo = {
 }
 
 export const postDataSource = {
-  total: 15,
+  // total: 16,
   data: [
     {
       year: 2023,
       posts: [
+        // {
+        //   text: 'Java学习笔记-Java背景知识',
+        //   link: '/posts/java/0_background',
+        //   tag: ['Java'],
+        //   date: '4月22日'
+        // },
         {
           text: '使用 QGIS 将 ArcGIS Server 发布的图层导入到 PostGIS',
           link: '/posts/gis/postgis',
-          tag: ['QGIS','PostgreSQL'],
+          tag: ['QGIS', 'PostgreSQL'],
           date: '2月23日'
         },
         {
@@ -98,7 +104,7 @@ export const postDataSource = {
           tag: ['Oracle'],
           date: '12月1日'
         },
-        
+
         {
           text: 'Linux 常用命令',
           link: '/posts/linux/cmd',

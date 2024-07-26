@@ -15,3 +15,5 @@ node_modules
 
 docs/.vuepress/dist
 nginx.conf
+
+**/.DS_Store
